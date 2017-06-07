@@ -25,10 +25,10 @@ To build, install, clean-up:
 
 First, **clone** this branch in your `GOPATH`, then:
 
-`make build`
+``autoreconf -i``
 
+``./configure --libexecdir=/usr/libexec/oci/hooks.d/``
 
 `make install`
-
 
 `make clean`
